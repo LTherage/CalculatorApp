@@ -1,0 +1,113 @@
+.root {
+    -fx-background-color: #1a1a1a;
+    -fx-padding: 20px;
+}
+
+.border-pane {
+    -fx-background-radius: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 10, 0, 0, 0);
+}
+
+.text-field {
+    -fx-background-color: #2d2d2d;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+    -fx-background-radius: 10px 10px 0 0;
+    -fx-border-width: 0;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+.grid-pane {
+    -fx-background-color: #2d2d2d;
+    -fx-padding: 10px;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-background-radius: 0 0 10px 10px;
+}
+
+.button {
+    -fx-background-color: #3d3d3d;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0, 0, 1);
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #4d4d4d;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0, 0, 2);
+    -fx-translate-y: -1px;
+}
+
+.button:pressed {
+    -fx-background-color: #2d2d2d;
+    -fx-effect: innershadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0, 0, 0);
+    -fx-translate-y: 1px;
+}
+
+/* Style spécial pour les opérateurs */
+.button:nth-child(4n) {
+    -fx-background-color: #ff9500;
+}
+
+.button:nth-child(4n):hover {
+    -fx-background-color: #ffaa33;
+}
+
+.button:nth-child(4n):pressed {
+    -fx-background-color: #ff8000;
+}
+
+/* Style pour le bouton AC */
+.button:nth-child(13) {
+    -fx-background-color: #ff3b30;
+}
+
+.button:nth-child(13):hover {
+    -fx-background-color: #ff4d40;
+}
+
+.button:nth-child(13):pressed {
+    -fx-background-color: #ff2d20;
+}
+
+/* Style pour le bouton égal */
+.button:nth-child(15) {
+    -fx-background-color: #34c759;
+}
+
+.button:nth-child(15):hover {
+    -fx-background-color: #40d867;
+}
+
+.button:nth-child(15):pressed {
+    -fx-background-color: #2db84d;
+}
+
+/* Animation pour les boutons */
+.button {
+    -fx-transition: all 0.1s ease-out;
+}
+
+/* Effet de brillance sur l'écran */
+.text-field {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.1), 15, 0, 0, 0),
+                innershadow(gaussian, rgba(0, 0, 0, 0.2), 5, 0, 0, 2);
+}
+
+/* Style pour la police des nombres sur l'écran */
+.text-field {
+    -fx-font-family: 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+    -fx-alignment: CENTER_RIGHT;
+}
+
+/* Effet de reflet subtil */
+.border-pane {
+    -fx-background-color: linear-gradient(to bottom, rgba(255,255,255,0.05) 0%,
+                                                   rgba(255,255,255,0) 100%);
+}

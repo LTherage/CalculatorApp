@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univartois.butinfo.ihm.calc.CalculatorController" stylesheets="@style.css">
+    <top>
+        <TextField fx:id="screen" alignment="CENTER_RIGHT" editable="false" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </TextField>
+    </top>
+    <center>
+        <GridPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="50.0" />
+                <ColumnConstraints hgrow="ALWAYS" minWidth="10.0" prefWidth="50.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="ALWAYS" />
+                <RowConstraints minHeight="10.0" prefHeight="50.0" vgrow="ALWAYS" />
+            </rowConstraints>
+            <children>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="1">
+                    <userData>1</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="2" GridPane.columnIndex="1">
+                    <userData>2</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="3" GridPane.columnIndex="2">
+                    <userData>3</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressOperator" text="+" GridPane.columnIndex="3">
+                    <userData>+</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="4" GridPane.rowIndex="1">
+                    <userData>4</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="5" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                    <userData>5</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="6" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                    <userData>6</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressOperator" text="-" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                    <userData>-</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="7" GridPane.rowIndex="2">
+                    <userData>7</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="8" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                    <userData>8</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="9" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <userData>9</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressOperator" text="*" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                    <userData>*</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#clear" text="AC" GridPane.rowIndex="3" />
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressDigit" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                    <userData>0</userData>
+                </Button>
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#computeResult" text="=" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" onAction="#pressOperator" text="/" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                    <userData>/</userData>
+                </Button>
+            </children>
+        </GridPane>
+    </center>
+</BorderPane>
