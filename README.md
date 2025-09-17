@@ -276,7 +276,7 @@
 
 This project requires the following dependencies:
 
-- **Programming Language:** unknown
+- **Programming Language:** Java
 - **Package Manager:** Gradle
 
 ### ⚙️ Installation
