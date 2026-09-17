@@ -1,85 +1,66 @@
 <div id="top">
 
-<!-- HEADER STYLE: BANNER -->
-<div align="center">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
-	<defs>
-		<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-			<stop offset="0%" style="stop-color:#e5402d;stop-opacity:1" />
-			<stop offset="50%" style="stop-color:#e5ae2d;stop-opacity:1" />
-			<stop offset="100%" style="stop-color:#aee52d;stop-opacity:1" />
-		</linearGradient>
-		<filter id="shadow">
-			<feDropShadow dx="2.0" dy="2.0" stdDeviation="4.0" flood-opacity="0.5" />
-		</filter>
-		<pattern id="dots" width="20.0" height="20.0" patternUnits="userSpaceOnUse">
-			<circle cx="3" cy="3" r="1.5" fill="rgba(255,255,255,0.2)" />
-		</pattern>
-	</defs>
-	<rect width="100%" height="100%" fill="url(#bg)" rx="5.0" />
-	<rect width="100%" height="100%" fill="url(#dots)" />
-	<circle cx="64.0" cy="50.0" r="30.0" fill="rgba(255,255,255,0.8)" />
-	<circle cx="736.0" cy="150.0" r="40.0" fill="rgba(255,255,255,0.8)" />
-	<path d="M 400.0 25.0
-			 L 450.0 75.0
-			 L 350.0 75.0 Z" fill="rgba(255,255,255,0.8)" />
-	<text x="400.0" y="100.0" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#FFFFFF" filter="url(#shadow)">
-		CalculatorApp
-	</text>
-	<text x="400.0" y="150.0" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="rgba(255,255,255,0.9)">
-</text></svg>
+# CONVERTERAPP
+
+<em><em>
 
 <!-- BADGES -->
-<img src="https://img.shields.io/github/license/LTherage/CalculatorApp?style=for-the-badge&logo=opensourceinitiative&logoColor=white&color=FF6347" alt="license">
-<img src="https://img.shields.io/github/last-commit/LTherage/CalculatorApp?style=for-the-badge&logo=git&logoColor=white&color=FF6347" alt="last-commit">
-<img src="https://img.shields.io/github/languages/top/LTherage/CalculatorApp?style=for-the-badge&color=FF6347" alt="repo-top-language">
-<img src="https://img.shields.io/github/languages/count/LTherage/CalculatorApp?style=for-the-badge&color=FF6347" alt="repo-language-count">
+<img src="https://img.shields.io/github/license/LTherage/ConverterApp?style=flat-square&logo=opensourceinitiative&logoColor=white&color=8A2BE2" alt="license">
+<img src="https://img.shields.io/github/last-commit/LTherage/ConverterApp?style=flat-square&logo=git&logoColor=white&color=8A2BE2" alt="last-commit">
+<img src="https://img.shields.io/github/languages/top/LTherage/ConverterApp?style=flat-square&color=8A2BE2" alt="repo-top-language">
+<img src="https://img.shields.io/github/languages/count/LTherage/ConverterApp?style=flat-square&color=8A2BE2" alt="repo-language-count">
 
 <em>Built with the tools and technologies:</em>
 
-<img src="https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white" alt="Gradle">
-<img src="https://img.shields.io/badge/bat-31369E.svg?style=for-the-badge&logo=bat&logoColor=white" alt="bat">
-<img src="https://img.shields.io/badge/CSS-663399.svg?style=for-the-badge&logo=CSS&logoColor=white" alt="CSS">
+<img src="https://img.shields.io/badge/Gradle-02303A.svg?style=flat-square&logo=Gradle&logoColor=white" alt="Gradle">
+<img src="https://img.shields.io/badge/bat-31369E.svg?style=flat-square&logo=bat&logoColor=white" alt="bat">
 
 </div>
 
----
-
-## 📄 Table of Contents
-
-- [📄 Table of Contents](#-table-of-contents)
-- [✨ Overview](#-overview)
-- [📌 Features](#-features)
-- [📁 Project Structure](#-project-structure)
-    - [📑 Project Index](#-project-index)
-- [🚀 Getting Started](#-getting-started)
-    - [📋 Prerequisites](#-prerequisites)
-    - [⚙ ️ Installation](#-installation)
-    - [💻 Usage](#-usage)
-    - [🧪 Testing](#-testing)
-- [📈 Roadmap](#-roadmap)
-- [🤝 Contributing](#-contributing)
-- [📜 License](#-license)
-- [✨ Acknowledgments](#-acknowledgments)
+<br clear="right">
 
 ---
 
-## ✨ Overview
+## ⚛️ Table of Contents
+
+<details>
+<summary>Table of Contents</summary>
+
+- [⚛ ️ Table of Contents](#-table-of-contents)
+- [🔮 Overview](#-overview)
+- [💫 Features](#-features)
+- [🌌 Project Structure](#-project-structure)
+    - [✨ Project Index](#-project-index)
+- [⚡ Getting Started](#-getting-started)
+    - [💠 Prerequisites](#-prerequisites)
+    - [🔷 Installation](#-installation)
+    - [🔹 Usage](#-usage)
+    - [🔸 Testing](#-testing)
+- [🌀 Roadmap](#-roadmap)
+- [✴ ️ Contributing](#-contributing)
+- [⭐ License](#-license)
+- [✧ Acknowledgments](#-acknowledgments)
+
+</details>
+
+---
+
+## 🔮 Overview
 
 
 
 ---
 
-## 📌 Features
+## 💫 Features
 
-<code>❯ REPLACE-ME</code>
+<code>❯ Convertisseur JavaFX simple pour convertir mètres, pieds, yards et miles. Interface FXML, contrôleur Java et exécution via Gradle.</code>
 
 ---
 
-## 📁 Project Structure
+## 🌌 Project Structure
 
 ```sh
-└── CalculatorApp/
+└── ConverterApp/
     ├── build.gradle
     ├── gradle
     │   └── wrapper
@@ -90,10 +71,10 @@
         └── main
 ```
 
-### 📑 Project Index
+### ✨ Project Index
 
 <details open>
-	<summary><b><code>CALCULATORAPP/</code></b></summary>
+	<summary><b><code>CONVERTERAPP/</code></b></summary>
 	<!-- __root__ Submodule -->
 	<details>
 		<summary><b>__root__</b></summary>
@@ -108,16 +89,16 @@
 				</tr>
 			</thead>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/gradlew.bat'>gradlew.bat</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/gradlew.bat'>gradlew.bat</a></b></td>
+					<td style='padding: 8px;'>Script de démarrage Gradle pour Windows (wrapper).</td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/build.gradle'>build.gradle</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/build.gradle'>build.gradle</a></b></td>
+					<td style='padding: 8px;'>Configuration Gradle : plugins Java et JavaFX, mainClass défini pour l'application.</td>
 				</tr>
 				<tr style='border-bottom: 1px solid #eee;'>
-					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/settings.gradle'>settings.gradle</a></b></td>
-					<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+					<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/settings.gradle'>settings.gradle</a></b></td>
+					<td style='padding: 8px;'>Paramètres du projet (rootProject.name = 'cc1-therage-ludovic').</td>
 				</tr>
 			</table>
 		</blockquote>
@@ -164,12 +145,12 @@
 														<blockquote>
 															<div class='directory-path' style='padding: 8px 0; color: #666;'>
 																<code><b>⦿ src.main.java.fr.univartois.butinfo.ihm</b></code>
-															<!-- calc Submodule -->
+															<!-- converter Submodule -->
 															<details>
-																<summary><b>calc</b></summary>
+																<summary><b>converter</b></summary>
 																<blockquote>
 																	<div class='directory-path' style='padding: 8px 0; color: #666;'>
-																		<code><b>⦿ src.main.java.fr.univartois.butinfo.ihm.calc</b></code>
+																		<code><b>⦿ src.main.java.fr.univartois.butinfo.ihm.converter</b></code>
 																	<table style='width: 100%; border-collapse: collapse;'>
 																	<thead>
 																		<tr style='background-color: #f8f9fa;'>
@@ -178,12 +159,12 @@
 																		</tr>
 																	</thead>
 																		<tr style='border-bottom: 1px solid #eee;'>
-																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/src/main/java/fr/univartois/butinfo/ihm/calc/CalculatorController.java'>CalculatorController.java</a></b></td>
-																			<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/src/main/java/fr/univartois/butinfo/ihm/converter/DistanceConverterController.java'>DistanceConverterController.java</a></b></td>
+																			<td style='padding: 8px;'>Contrôleur JavaFX : gère la conversion entre mètres, pieds, yards et miles et affiche les erreurs de saisie.</td>
 																		</tr>
 																		<tr style='border-bottom: 1px solid #eee;'>
-																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/src/main/java/fr/univartois/butinfo/ihm/calc/Calculator.java'>Calculator.java</a></b></td>
-																			<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/src/main/java/fr/univartois/butinfo/ihm/converter/DistanceConverterApplication.java'>DistanceConverterApplication.java</a></b></td>
+																			<td style='padding: 8px;'>Classe principale JavaFX : charge la vue FXML et lance l'application (title: "Convertisseur de distance").</td>
 																		</tr>
 																	</table>
 																</blockquote>
@@ -228,12 +209,12 @@
 														<blockquote>
 															<div class='directory-path' style='padding: 8px 0; color: #666;'>
 																<code><b>⦿ src.main.resources.fr.univartois.butinfo.ihm</b></code>
-															<!-- calc Submodule -->
+															<!-- converter Submodule -->
 															<details>
-																<summary><b>calc</b></summary>
+																<summary><b>converter</b></summary>
 																<blockquote>
 																	<div class='directory-path' style='padding: 8px 0; color: #666;'>
-																		<code><b>⦿ src.main.resources.fr.univartois.butinfo.ihm.calc</b></code>
+																		<code><b>⦿ src.main.resources.fr.univartois.butinfo.ihm.converter</b></code>
 																	<table style='width: 100%; border-collapse: collapse;'>
 																	<thead>
 																		<tr style='background-color: #f8f9fa;'>
@@ -242,12 +223,8 @@
 																		</tr>
 																	</thead>
 																		<tr style='border-bottom: 1px solid #eee;'>
-																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/src/main/resources/fr/univartois/butinfo/ihm/calc/calculator.fxml'>calculator.fxml</a></b></td>
-																			<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
-																		</tr>
-																		<tr style='border-bottom: 1px solid #eee;'>
-																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/CalculatorApp/blob/master/src/main/resources/fr/univartois/butinfo/ihm/calc/style.css'>style.css</a></b></td>
-																			<td style='padding: 8px;'>Code>❯ REPLACE-ME</code></td>
+																			<td style='padding: 8px;'><b><a href='https://github.com/LTherage/ConverterApp/blob/master/src/main/resources/fr/univartois/butinfo/ihm/converter/distance-converter.fxml'>distance-converter.fxml</a></b></td>
+																			<td style='padding: 8px;'>Vue FXML : interface composée de TextFields et Buttons pour saisir et convertir les unités de distance.</td>
 																		</tr>
 																	</table>
 																</blockquote>
@@ -270,29 +247,29 @@
 
 ---
 
-## 🚀 Getting Started
+## ⚡ Getting Started
 
-### 📋 Prerequisites
+### 💠 Prerequisites
 
 This project requires the following dependencies:
 
-- **Programming Language:** Java
+- **Programming Language:** unknown
 - **Package Manager:** Gradle
 
-### ⚙️ Installation
+### 🔷 Installation
 
-Build CalculatorApp from the source and intsall dependencies:
+Build ConverterApp from the source and intsall dependencies:
 
 1. **Clone the repository:**
 
     ```sh
-    ❯ git clone https://github.com/LTherage/CalculatorApp
+    ❯ git clone https://github.com/LTherage/ConverterApp
     ```
 
 2. **Navigate to the project directory:**
 
     ```sh
-    ❯ cd CalculatorApp
+    ❯ cd ConverterApp
     ```
 
 3. **Install the dependencies:**
@@ -309,7 +286,7 @@ Build CalculatorApp from the source and intsall dependencies:
 	❯ echo 'INSERT-INSTALL-COMMAND-HERE'
 	```
 
-### 💻 Usage
+### 🔹 Usage
 
 Run the project with:
 
@@ -318,9 +295,9 @@ Run the project with:
 echo 'INSERT-RUN-COMMAND-HERE'
 ```
 
-### 🧪 Testing
+### 🔸 Testing
 
-Calculatorapp uses the {__test_framework__} test framework. Run the test suite with:
+Converterapp uses the {__test_framework__} test framework. Run the test suite with:
 
 **Using [gradle](None):**
 ```sh
@@ -329,7 +306,7 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
-## 📈 Roadmap
+## 🌀 Roadmap
 
 - [X] **`Task 1`**: <strike>Implement feature one.</strike>
 - [ ] **`Task 2`**: Implement feature two.
@@ -337,11 +314,11 @@ echo 'INSERT-TEST-COMMAND-HERE'
 
 ---
 
-## 🤝 Contributing
+## ✴️ Contributing
 
-- **💬 [Join the Discussions](https://github.com/LTherage/CalculatorApp/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/LTherage/CalculatorApp/issues)**: Submit bugs found or log feature requests for the `CalculatorApp` project.
-- **💡 [Submit Pull Requests](https://github.com/LTherage/CalculatorApp/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/LTherage/ConverterApp/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/LTherage/ConverterApp/issues)**: Submit bugs found or log feature requests for the `ConverterApp` project.
+- **💡 [Submit Pull Requests](https://github.com/LTherage/ConverterApp/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 <details closed>
 <summary>Contributing Guidelines</summary>
@@ -349,7 +326,7 @@ echo 'INSERT-TEST-COMMAND-HERE'
 1. **Fork the Repository**: Start by forking the project repository to your github account.
 2. **Clone Locally**: Clone the forked repository to your local machine using a git client.
    ```sh
-   git clone https://github.com/LTherage/CalculatorApp
+   git clone https://github.com/LTherage/ConverterApp
    ```
 3. **Create a New Branch**: Always work on a new branch, giving it a descriptive name.
    ```sh
@@ -372,21 +349,21 @@ echo 'INSERT-TEST-COMMAND-HERE'
 <summary>Contributor Graph</summary>
 <br>
 <p align="left">
-   <a href="https://github.com{/LTherage/CalculatorApp/}graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=LTherage/CalculatorApp">
+   <a href="https://github.com{/LTherage/ConverterApp/}graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=LTherage/ConverterApp">
    </a>
 </p>
 </details>
 
 ---
 
-## 📜 License
+## ⭐ License
 
-Calculatorapp is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+Converterapp is protected under the [LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
-## ✨ Acknowledgments
+## ✧ Acknowledgments
 
 - Credit `contributors`, `inspiration`, `references`, etc.
 
